@@ -1,0 +1,8 @@
+{
+  "greeting": "Salve",
+  "languageChange": "Cambia Lingua",
+  "common": {
+    "submit": "Invia",
+    "cancel": "Cancella"
+  }
+}
