@@ -1,0 +1,19 @@
+p {
+  font-size: 1.15em;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quote {
+  font-weight: bold;
+  margin: 15px;
+}
+
+.citation {
+  font-size: 1em;
+  text-align: right;
+}
