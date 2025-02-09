@@ -40,19 +40,19 @@ function Form() {
             <div>
               <input type="radio" id="one" name="option" value="one" />
               <label id="one" for="one">
-                {t("form.option", { count: 1 })} 1
+                {t("form.option", { count: 1, num: 1 })}
               </label>
             </div>
             <div>
               <input type="radio" id="two" name="option" value="two" />
               <label id="two" for="two">
-                {t("form.option", { count: 1 })} 2
+                {t("form.option", { count: 1, num: 2 })}
               </label>
             </div>
             <div>
               <input type="radio" id="three" name="option" value="three" />
               <label id="three" for="three">
-                {t("form.option", { count: 1 })} 3
+                {t("form.option", { count: 1, num: 3 })}
               </label>
             </div>
           </div>
@@ -64,19 +64,19 @@ function Form() {
             <div>
               <input type="checkbox" id="one" name="option" value="one" />
               <label id="one" for="one">
-                {t("form.option", { count: 1 })} 1
+                {t("form.option", { count: 1, num: 1 })}
               </label>
             </div>
             <div>
               <input type="checkbox" id="two" name="option" value="two" />
               <label id="two" for="two">
-                {t("form.option", { count: 1 })} 2
+                {t("form.option", { count: 1, num: 2 })}
               </label>
             </div>
             <div>
               <input type="checkbox" id="three" name="option" value="three" />
               <label id="three" for="three">
-                {t("form.option", { count: 1 })} 3
+                {t("form.option", { count: 1, num: 3 })}
               </label>
             </div>
           </div>

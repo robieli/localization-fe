@@ -18,7 +18,7 @@
   "form": {
     "message": "Message",
     "placeholder": "placeholder text",
-    "option_one": "Option",
+    "option_one": "Option {{num}}",
     "option_other": "Options",
     "name": {
       "first": "First Name",

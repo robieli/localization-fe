@@ -18,7 +18,7 @@
   "form": {
     "message": "Messaggio",
     "placeholder": "testo segnaposto",
-    "option_one": "Opzione",
+    "option_one": "Opzione {{num}}",
     "option_other": "Opzioni",
     "name": {
       "first": "Nome",
