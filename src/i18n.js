@@ -8,6 +8,9 @@ i18n
   .use(initReactI18next)
   .use(Backend)
   .init({
+    backend: {
+      loadPath: "http://127.0.0.1:5000/{{lng}}", // set to API fetch URL
+    },
     fallbackLng: "en",
     interpolation: {
       escapeValue: false,
