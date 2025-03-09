@@ -1,64 +1,51 @@
-label,
-input,
-textarea {
-  font-size: 1.4em;
-}
-
-.container-name {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-#fname,
-#lname {
-  height: 30px;
-  width: 90%;
-}
-
-#paragraph {
-  width: 94%;
-  height: 60px;
-  max-height: 250px;
-  resize: vertical;
-  padding: 5px;
-}
-
-#one,
-#two,
-#three {
+div[contenteditable] {
+  width: 95%;
+  margin-left: 2%;
+  margin-top: 10px;
+  padding: 3px;
   font-size: 1.2em;
-  padding-left: 5px;
-}
-
-.container-multi {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 20px;
-}
-
-.buttons {
-  position: relative;
-  top: 150px;
+  height: 52px;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow-y: scroll;
 }
 
 .form-button {
+  margin: auto;
+  padding: 5px;
+  font-size: 1.2em;
+  background-color: rgb(233, 233, 233);
+  border-radius: 4px;
+  margin-top: 7px;
+  margin-left: 15px;
+}
+
+.submit-container {
+  height: 50px;
+  position: relative;
+}
+
+.loading {
   position: absolute;
-  font-size: 1.3em;
-  width: 40%;
-  height: 40px;
-  border-radius: 3px;
-  padding: 4px;
-  transition: 0.3s;
-  left: 53%;
+  left: 180px;
+  top: 12px;
 }
 
-.form-button:hover {
-  transform: scale(1.2);
+.output {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 71%;
+  max-height: 420px;
+  width: 95%;
+  margin-bottom: 10px;
+  margin-left: 2%;
+  padding: 3px;
+  justify-self: end;
+  overflow-y: scroll;
 }
 
-.blue {
-  background-color: rgb(61, 100, 218);
-  color: white;
-  left: 7%;
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
 }
