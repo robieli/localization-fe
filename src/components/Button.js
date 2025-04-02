@@ -7,8 +7,16 @@ function Button() {
   function handleClick() {
     if (i18n.language === "en") {
       i18n.changeLanguage("it");
+    } else if (i18n.language === "it") {
+      i18n.changeLanguage("ar");
     } else {
       i18n.changeLanguage("en");
+    }
+
+    if (i18n.language === "ar") {
+      document.documentElement.dir = "rtl";
+    } else {
+      document.documentElement.dir = "ltr";
     }
   }
 
