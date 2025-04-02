@@ -28,7 +28,7 @@ function Translate() {
   }
 
   function handleText() {
-    setInput(document.getElementById("input").textContent);
+    setInput(document.getElementById("translateInput").textContent);
   }
 
   return (
@@ -38,7 +38,7 @@ function Translate() {
         contentEditable
         onInput={handleText}
         className="translate"
-        id="input"
+        id="translateInput"
       ></div>
       <div className="submit-container">
         <button
