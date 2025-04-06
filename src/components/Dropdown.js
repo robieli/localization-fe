@@ -27,6 +27,7 @@ function Dropdown() {
         <option value="en">en</option>
         <option value="it">it</option>
         <option value="ar">ar</option>
+        <option value="nl">nl</option>
       </select>
     </div>
   );

@@ -9,6 +9,8 @@ function Button() {
       i18n.changeLanguage("it");
     } else if (i18n.language === "it") {
       i18n.changeLanguage("ar");
+    } else if (i18n.language === "ar") {
+      i18n.changeLanguage("nl");
     } else {
       i18n.changeLanguage("en");
     }
